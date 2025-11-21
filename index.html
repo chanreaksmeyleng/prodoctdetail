@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>Home Work</title>
+  </head>
+  <body style="background-color: #F5F7FA">
+    <header>
+      <nav class="navbar navbar-expand-lg" style="background-color: white">
+        <div class="container-fluid">
+          <!-- menu left -->
+          <a href="#">
+            <img src="./image/logo.png" width="45px" height="45px" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- menu right -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active;"
+                  style="font-size: 18px; color: grey"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  style="font-size: 18px; color: grey"
+                  >My favourite Store</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#"
+                  style="font-size: 18px; color: grey"
+                  >Products</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="font-size: 18px; color: grey"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  aria-disabled="true"
+                  style="font-size: 18px; color: rgb(178, 178, 178)"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mb-5">
+      <div class="container mt-5">
+        <div class="row">
+          <!-- List photo -->
+          <div class="col-1">
+            <img
+              src="./image/blue_front.png"
+              class="border border-1 border-primary rounded mb-3"
+              width="100%"
+              alt=""
+            />
+            <img
+              src="./image/blue_back.png"
+              class="border border-1 border-dark-subtle rounded mb-3"
+              width="100%"
+              alt=""
+            />
+            <img
+              src="./image/blue_side.png"
+              class="border border-1 border-dark-subtle rounded mb-3"
+              width="100%"
+              alt=""
+            />
+          </div>
+          <!-- Main photo -->
+          <div class="col-4">
+            <img
+              src="./image/blue_front.png"
+              class="border border-1 border-dark-subtle rounded mb-3"
+              width="100%"
+              alt=""
+            />
+            <div class="d-flex justify-content-center align-items-center gap-2">
+              <button
+                class="btn btn-outline-success rounded-4"
+                style="width: 48%"
+              >
+                <i class="fa-regular fa-heart"></i>&nbsp;&nbsp; Add to wishlist
+              </button>
+              <button
+                class="btn btn-info rounded-4"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+                style="width: 48%; color: white"
+              >
+                <i class="fa-solid fa-basket-shopping"></i>&nbsp;&nbsp;Buy Now
+              </button>
+            </div>
+          </div>
+          <!-- Detail Information -->
+          <div class="col-7">
+            <div class="d-flex flex-row gap-3">
+              <div>
+                <i class="fa-solid fa-star" style="color: orange"></i>
+                <i class="fa-solid fa-star" style="color: orange"></i>
+                <i class="fa-solid fa-star" style="color: orange"></i>
+                <i
+                  class="fa-solid fa-star-half-stroke"
+                  style="color: orange"
+                ></i>
+                <i class="fa-regular fa-star" style="color: orange"></i>
+              </div>
+              <p style="color: blue; font-size: larger;">6548 People rated and reviewed</p>
+            </div>
+            <div>
+              <h3>
+                24" iMac® with Retina 4.5K display - Apple M1 8GB Memory - 256GB
+                SSD - w/Touch ID (Latest Model) - Blue
+              </h3>
+            </div>
+            <div class="d-flex flex-row gap-3 align-items-center">
+              <div>
+                <button class="btn btn-success">#1 Best seller</button>
+              </div>
+              <p style="color: blue">in Phoenix sell analytics 2021</p>
+            </div>
+            <div class="d-flex flex-row gap-3 align-items-center mt-3">
+              <h1>$1349.99</h1>
+              <h2 style="text-decoration: line-through;">$1499.99</h2>
+              <h3 style="color:  orange;">10% off</h3>
+            </div>
+            <div>
+              <p style="color: green; font-weight: 600;">In stock</p>
+            </div>
+            <div>
+              <p>
+                <span style="font-weight: 600;">Do you want it on Saturday, July 29th?</span> Choose <span style="font-weight: 600;">Saturday Delivery</span>
+                at checkout if you want your order delivered within 12 hours 43
+                minutes, <span style="color: lightseagreen; font-weight: 600;">Details.</span> <span style="font-weight: 600;">Gift wrapping is available.</span>
+              </p>
+              <p style="color: darkred; font-weight: 600;">Special offer ends in 23:00:45 hours</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- modal -->
+    <div
+      class="modal fade modal-xl"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Your Detail Information
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row mb-2">
+                <div class="col-6">
+                  <label for="inputEmail4" class="form-label">Firstname</label>
+                  <input type="text" class="form-control" id="inputEmail4" />
+                </div>
+                <div class="col-6">
+                  <label for="inputEmail4" class="form-label">Lastname</label>
+                  <input type="text" class="form-control" id="inputEmail4" />
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="radioDefault"
+                      id="radioDefault1"
+                    />
+                    <label class="form-check-label" for="radioDefault1">
+                      Female
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="radioDefault"
+                      id="radioDefault2"
+                      checked
+                    />
+                    <label class="form-check-label" for="radioDefault2">
+                      Male
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-12">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Address</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row mb-2">
+                <div class="col-6">
+                  <label for="inputEmail4" class="form-label"
+                    >Email Address</label
+                  >
+                  <input type="email" class="form-control" id="inputEmail4" />
+                </div>
+                <div class="col-6">
+                  <label for="inputEmail4" class="form-label"
+                    >Phone Number</label
+                  >
+                  <input type="text" class="form-control" id="inputEmail4" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cancel
+            </button>
+            <button type="button" class="btn btn-primary">Confirm Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      style="background-color: #EFF2F6; height: 250px; width: 100%"
+    >
+        <div class="container">
+            <div class="row gap-2">
+                <div class="col-3 mt-5">
+                    <div class="d-flex flex-row align-items-center">
+                        <img src="./image/logo tran.png" width="35px" height="35px" alt="">
+                        <p class="mt-2" style="font-size: 21px;">Electrix Shop</p>
+                    </div>
+                    <div>
+                        <p class="lh-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea delectus, optio quia possimus aut cupiditate sit nesciunt?</p>
+                    </div>
+                </div>
+                <div class="col-2 mt-3">
+                    <h5>About</h5>
+                    <p>Career</p>
+                    <p class="m-0; p-0">Affiliate Program</p>
+                    <p class="m-0; p-0;">Privacy Policy</p>
+                    <p class="m-0; p-0;">Terms & Conditions</p>
+                </div>
+                <div class="col-2 mt-3">
+                    <h5>Stay Connected</h5>
+                    <p>Blog</p>
+                    <p><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</p>
+                    <p><i class="fa-brands fa-telegram"></i>&nbsp;Telegram</p>
+                </div>
+                <div class="col-2 mt-3">
+                    <h5>Customer Service</h5>
+                    <p>Help Desk</p>
+                    <p>Support 24/7</p>
+                    <p>Community</p>
+                </div>
+                <div class="col-2 mt-3">
+                    <h5>Payment Term</h5>
+                    <p>Cash On Delivery</p>
+                    <p>Online Payment</p>
+                    <p>Paypal</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
